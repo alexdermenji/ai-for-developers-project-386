@@ -35,3 +35,17 @@
 - Release Please управляет версией и changelog через release-PR; релиз сам по себе не является деплоем.
 - Не коммитить `node_modules/`, `dist/` и секреты. Сохранять `package-lock.json` при изменении зависимостей.
 - Не изменять и не удалять `.github/workflows/hexlet-check.yml`.
+
+## Agent skills
+
+### Issue tracker
+Задачи и спецификации хранятся в GitHub Issues.
+Перед работой с ними читай `docs/agents/issue-tracker.md`.
+
+### Triage labels
+Используем пять стандартных меток.
+Перед разбором задач читай `docs/agents/triage-labels.md`.
+
+### Domain docs
+Один общий словарь и папка архитектурных решений.
+Перед изучением предметной области читай `docs/agents/domain.md`.
